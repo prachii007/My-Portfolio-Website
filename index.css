@@ -1,0 +1,25 @@
+ body {
+     color: white;
+     background-color: black;
+ }
+
+ .Navbar-Bg-Color {
+     background-color: #141c27;
+ }
+
+ .navbar-nav .nav-link,
+ .navbar .navbar-brand {
+     color: white;
+ }
+
+ .navbar-toggler {
+     background-color: #55e6a5;
+ }
+
+ .navbar-nav .nav-item a.nav-link:hover {
+     color: #55e6a5
+ }
+
+ 
+
+
