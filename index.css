@@ -15,6 +15,19 @@
      background-color: #141c27;
  }
 
+ .A-Big-P {
+     font-family: 'Calligraffitti', cursive;
+     color:#55e6a5;
+     padding: 5px;
+ }
+
+ .Prachi {
+     color: #55e6a5;
+     text-transform: capitalize;
+     font-family: 'Calligraffitti', cursive;
+     font-size: 40px;
+ }
+
  .navbar-nav .nav-link,
  .navbar .navbar-brand {
      color: white;
@@ -67,13 +80,13 @@
      }
  }
 
- .Download-Button{
-    background-color: #55e6a5;
-    border-radius: 0;
-    transition: all 2s ease-in-out;
+ .Download-Button {
+     background-color: #55e6a5;
+     border-radius: 0;
+     transition: all 2s ease-in-out;
  }
 
- .Download-Button:hover{
-    background-color: #141c27;
-    color: white;
+ .Download-Button:hover {
+     background-color: #141c27;
+     color: white;
  }
