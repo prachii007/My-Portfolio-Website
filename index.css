@@ -116,13 +116,28 @@
      font-size: 18px;
  }
 
-
-
  .College {
      color: #a2a2a2;
      font-weight: 400;
  }
 
  .College:hover {
+     color: #55e6a5;
+ }
+
+ .Work {
+     color: #a2a2a2;
+     font-weight: 400;
+ }
+
+ .Work div {
+     color: #55e6a5;
+ }
+
+ .Company {
+     color: white;
+ }
+
+ .Company:hover {
      color: #55e6a5;
  }
