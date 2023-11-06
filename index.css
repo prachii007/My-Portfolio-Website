@@ -8,7 +8,13 @@
  }
 
  h2 {
-     font-size: 55/16px;
+     font-size: 35px;
+ }
+
+ h3 {
+     font-size: 20px;
+     color: #55e6a5;
+
  }
 
  .Navbar-Bg-Color {
@@ -51,11 +57,12 @@
      /* background-color: #09101a; */
      height: 100vh;
  }
-.About-Me-Text{
-    color: #a2a2a2;
-    font-weight: 500;
-    font-size: 18px;
-}
+
+ .About-Me-Text {
+     color: #a2a2a2;
+     font-weight: 500;
+     font-size: 18px;
+ }
 
  .Square {
      border: 15px solid #55e6a5;
@@ -95,4 +102,27 @@
  .Download-Button:hover {
      background-color: #141c27;
      color: white;
+ }
+
+ .Education-Section {
+     background-color: #09101a;
+ }
+
+ .Years {
+     border: 1px solid #55e6a5;
+     width: fit-content;
+     color: #55e6a5;
+     font-weight: 400;
+     font-size: 18px;
+ }
+
+
+
+ .College {
+     color: #a2a2a2;
+     font-weight: 400;
+ }
+
+ .College:hover {
+     color: #55e6a5;
  }
