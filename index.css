@@ -1,149 +1,157 @@
- body {
-     color: white;
-     background-color: black;
- }
+:root {
+    --navbarBlack: #141c27;
+    --sectionBodyBlack: #09101a;
+    --subHeadingAqua: #55e6a5;
+    --bodyBlack: #000;
+    --bodyWhite: #fff;
+    --bodyDarkWhite: #a2a2a2;
+}
 
- h1 {
-     font-size: 55px;
- }
+body {
+    color: var(--bodyWhite);
+    background-color: var(--bodyBlack);
+}
 
- .Job-Profile {
-     font-size: 35px;
- }
+h1 {
+    font-size: 55px;
+}
 
- .Sub-heading {
-     font-size: 30px;
-     color: #55e6a5;
- }
+.Job-Profile {
+    font-size: 35px;
+}
 
- .Navbar-Bg-Color {
-     background-color: #141c27;
- }
+.Sub-heading {
+    font-size: 30px;
+    color: var(--subHeadingAqua);
+}
 
- .A-Big-P {
-     font-family: 'Calligraffitti', cursive;
-     color: #55e6a5;
-     padding: 5px;
- }
+.Navbar-Bg-Color {
+    background-color: var(--navbarBlack);
+}
 
- .Prachi {
-     color: #55e6a5;
-     text-transform: capitalize;
-     font-family: 'Calligraffitti', cursive;
-     font-size: 40px;
- }
+.A-Big-P {
+    font-family: 'Calligraffitti', cursive;
+    color: var(--subHeadingAqua);
+    padding: 5px;
+}
 
- .navbar-nav .nav-link,
- .navbar .navbar-brand {
-     color: white;
- }
+.Prachi {
+    color: var(--subHeadingAqua);
+    text-transform: capitalize;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
+}
 
- .navbar-toggler {
-     background-color: #55e6a5;
- }
+.navbar-nav .nav-link,
+.navbar .navbar-brand {
+    color: var(--bodyWhite);
+}
 
- .navbar-nav .nav-item a.nav-link {
-     transition: font-family text-transform 1s ease-in;
- }
+.navbar-toggler {
+    background-color: var(--subHeadingAqua);
 
- .navbar-nav .nav-item a.nav-link:hover {
-     color: #55e6a5;
-     font-family: 'Calligraffitti', cursive;
-     text-transform: capitalize;
- }
+}
 
- .Header-Component {
-     /* background-color: #09101a; */
-     height: 100vh;
- }
+.navbar-nav .nav-item a.nav-link {
+    transition: font-family text-transform 1s ease-in;
+}
 
- .About-Me-Text {
-     color: #a2a2a2;
-     font-weight: 500;
-     font-size: 18px;
- }
+.navbar-nav .nav-item a.nav-link:hover {
+    color: var(--subHeadingAqua);
+    font-family: 'Calligraffitti', cursive;
+    text-transform: capitalize;
+}
 
- .Square {
-     border: 15px solid #55e6a5;
-     border-radius: 50%;
-     animation: moveUpDown 2s linear infinite;
-     background-size: cover;
-     width: 50%;
-     height: 50%;
-     padding: 15px;
- }
+.Header-Component {
+    /* background-color: #09101a; */
+    height: 100vh;
+}
 
+.About-Me-Text {
+    color: var(--bodyDarkWhite);
+    font-weight: 500;
+    font-size: 18px;
+}
 
+.Square {
+    border: 15px solid var(--subHeadingAqua);
+    border-radius: 50%;
+    animation: moveUpDown 2s linear infinite;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+}
 
- @keyframes moveUpDown {
-     0% {
-         transform: translateY(0);
-         /* Initial position */
-     }
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+        /* Initial position */
+    }
 
-     50% {
-         transform: translateY(-10px);
-         /* Halfway point, moving up */
-     }
+    50% {
+        transform: translateY(-10px);
+        /* Halfway point, moving up */
+    }
 
-     100% {
-         transform: translateY(0);
-         /* Back to the initial position, moving down */
-     }
- }
+    100% {
+        transform: translateY(0);
+        /* Back to the initial position, moving down */
+    }
+}
 
- .Download-Button {
-     background-color: #55e6a5;
-     border-radius: 0;
-     transition: all 2s ease-in-out;
- }
+.Download-Button {
+    background-color: var(--subHeadingAqua);
+    border-radius: 0;
+    transition: all 2s ease-in-out;
+}
 
- .Download-Button:hover {
-     background-color: #141c27;
-     color: white;
- }
+.Download-Button:hover {
+    background-color: var(--navbarBlack);
+    color: var(--bodyWhite);
+}
 
- .Work-Experience {
-     background-color: #09101a;
-     border-radius: 20px;
-     transition: all 0.5s ease-in;
- }
+.Work-Experience {
+    background-color: var(--sectionBodyBlack);
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
 
- .Work-Experience:hover {
-     box-shadow: 5px 5px #55e6a5;
-     transform: translateY(10px);
- }
+.Work-Experience:hover {
+    box-shadow: 5px 5px var(--subHeadingAqua);
+    transform: translateY(10px);
+}
 
- .Years {
-     border: 1px solid #55e6a5;
-     width: fit-content;
-     color: #55e6a5;
-     font-weight: 400;
-     font-size: 18px;
- }
+.Years {
+    border: 1px solid var(--subHeadingAqua);
+    width: fit-content;
+    color: var(--subHeadingAqua);
+    font-weight: 400;
+    font-size: 18px;
+}
 
- .College {
-     color: #a2a2a2;
-     font-weight: 400;
- }
+.College {
+    color: var(--bodyDarkWhite);
+    font-weight: 400;
+}
 
- .College:hover {
-     color: #55e6a5;
- }
+.College:hover {
+    color: var(--subHeadingAqua);
+}
 
- .Work {
-     color: #a2a2a2;
-     font-weight: 400;
- }
+.Work {
+    color: var(--bodyDarkWhite);
+    font-weight: 400;
+}
 
- .Work div {
-     color: #55e6a5;
- }
+.Work div {
+    color: var(--subHeadingAqua);
+}
 
- .Company {
-     color: white;
- }
+.Company {
+    color: var(--bodyWhite);
+}
 
- .Company:hover {
-     color: #55e6a5;
- }
+.Company:hover {
+    color: var(--subHeadingAqua);
+}
