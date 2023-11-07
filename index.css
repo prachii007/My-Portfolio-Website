@@ -162,7 +162,7 @@ h1 {
     transition: all 0.5s ease-in;
 }
 
-.Skills-Section:hover{
+.Skills-Section:hover {
     box-shadow: 0 0 15px 15px var(--sectionBodyBlack);
     transform: translateY(10px);
 }
@@ -181,4 +181,19 @@ h1 {
     margin: 15px;
     border: 2px solid var(--subHeadingAqua);
     padding: 15px;
+}
+
+.Contact-Section {
+    border: 1px solid red;
+}
+
+.Contact-Flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.Contact-Flexbox li {
+    margin: 20px;
 }
