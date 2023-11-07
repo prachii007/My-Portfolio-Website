@@ -62,10 +62,10 @@ h1 {
     text-transform: capitalize;
 }
 
-.Header-Component {
-    /* background-color: #09101a; */
+/* .Header-Component {
+    background-color: #09101a;
     height: 100vh;
-}
+} */
 
 .About-Me-Text {
     color: var(--bodyDarkWhite);
@@ -173,6 +173,7 @@ h1 {
 
 .Skills-Flexbox {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
