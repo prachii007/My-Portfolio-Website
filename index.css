@@ -156,14 +156,22 @@ h1 {
     color: var(--subHeadingAqua);
 }
 
-.Project-Section {
-    border: 1px solid red;
+/* .Project-Section {
+    background-color: var(--sectionBodyBlack);
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
 }
+
+.Project-Section:hover {
+    box-shadow: 0 0 15px 15px var(--sectionBodyBlack);
+    transform: translateY(10px);
+} */
 
 .Tech-Stack-Flexbox {
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Tech-Stack-Flexbox li {
@@ -177,6 +185,7 @@ h1 {
 
 .Code-Flexbox {
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: center; */
 }
 
