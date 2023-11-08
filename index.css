@@ -29,13 +29,15 @@ h1 {
     background-color: var(--navbarBlack);
 }
 
-.A-Big-P {
-    font-family: 'Calligraffitti', cursive;
+.Capital-Prachi {
+    /* font-family: 'Calligraffitti', cursive; */
     color: var(--subHeadingAqua);
     padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.Prachi {
+.Navbar-Prachi {
     color: var(--subHeadingAqua);
     text-transform: capitalize;
     font-family: 'Calligraffitti', cursive;
