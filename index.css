@@ -156,6 +156,49 @@ h1 {
     color: var(--subHeadingAqua);
 }
 
+.Project-Section {
+    border: 1px solid red;
+}
+
+.Tech-Stack-Flexbox {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.Tech-Stack-Flexbox li {
+    /* list-style: none; */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid var(--subHeadingAqua);
+    transform: skew(-15deg);
+    border-radius: 10px;
+}
+
+.Code-Flexbox {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.Code-Flexbox div {
+    margin: 20px;
+    border: 1px solid var(--subHeadingAqua);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Code-Flexbox div:hover {
+    box-shadow: 0 0 10px var(--subHeadingAqua);
+}
+
+.Code-Flexbox div a {
+    text-decoration: none;
+    color: var(--bodyWhite);
+    font-weight: bold;
+}
+
+
+
 .Skills-Section {
     /* border: 1px solid red; */
     border-radius: 20px;
