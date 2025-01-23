@@ -16,6 +16,25 @@ h1 {
     font-size: 55px;
 }
 
+section {
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+section:nth-child(odd) {
+    background-color: var(--sectionBodyBlack);
+}
+
+section:nth-child(odd):hover {
+    box-shadow: 5px 5px var(--subHeadingAqua);
+    transform: translateY(10px);
+}
+
+section:nth-child(even):hover {
+    box-shadow: 0 0 15px 15px var(--sectionBodyBlack);
+    transform: translateY(10px);
+}
+
 .Job-Profile {
     font-size: 35px;
 }
@@ -108,16 +127,7 @@ h1 {
     color: var(--bodyWhite);
 }
 
-.Work-Experience {
-    background-color: var(--sectionBodyBlack);
-    border-radius: 20px;
-    transition: all 0.5s ease-in;
-}
 
-.Work-Experience:hover {
-    box-shadow: 5px 5px var(--subHeadingAqua);
-    transform: translateY(10px);
-}
 
 .Years {
     border: 1px solid var(--subHeadingAqua);
@@ -193,15 +203,7 @@ h1 {
 
 
 
-.Skills-Section {
-    border-radius: 20px;
-    transition: all 0.5s ease-in;
-}
 
-.Skills-Section:hover {
-    box-shadow: 0 0 15px 15px var(--sectionBodyBlack);
-    transform: translateY(10px);
-}
 
 .Skills-Heading {
     font-size: 20px;
