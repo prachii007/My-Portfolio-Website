@@ -40,7 +40,38 @@ section:nth-child(even):hover {
     transform: translateY(10px);
 }
 
-.Capital-Name {
+.Navbar-Bg-Color {
+    background-color: var(--navbarBlack);
+}
+
+.Navbar-Prachi {
+    color: var(--subHeadingAqua);
+    text-transform: capitalize;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
+}
+
+.navbar-nav .nav-link,
+.navbar .navbar-brand {
+    color: var(--bodyWhite);
+}
+
+.navbar-toggler {
+    background-color: var(--subHeadingAqua);
+
+}
+
+.navbar-nav .nav-item a.nav-link {
+    transition: font-family text-transform 1s ease-in;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: var(--subHeadingAqua);
+    font-family: 'Calligraffitti', cursive;
+    text-transform: capitalize;
+}
+
+.Capital-Prachi {
     color: var(--subHeadingAqua);
     padding: 5px;
 }
@@ -49,6 +80,27 @@ section:nth-child(even):hover {
     color: var(--bodyDarkWhite);
     font-weight: 500;
     font-size: 18px;
+}
+
+.Download-Button {
+    background-color: var(--subHeadingAqua);
+    border-radius: 0;
+    transition: all 2s ease-in-out;
+}
+
+.Download-Button:hover {
+    background-color: var(--navbarBlack);
+    color: var(--bodyWhite);
+}
+
+.Square {
+    border: 15px solid var(--subHeadingAqua);
+    border-radius: 50%;
+    animation: moveUpDown 2s linear infinite;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
 }
 
 .Years {
@@ -107,58 +159,13 @@ section:nth-child(even):hover {
     font-weight: bold;
 }
 
-
-
-
-
-.Job-Profile {
-    font-size: 35px;
+#Education-Section a {
+    color: var(--bodyDarkWhite);
+    font-weight: 400;
 }
 
-
-
-.Navbar-Bg-Color {
-    background-color: var(--navbarBlack);
-}
-
-
-
-.Navbar-Prachi {
+#Education-Section a:hover {
     color: var(--subHeadingAqua);
-    text-transform: capitalize;
-    font-family: 'Calligraffitti', cursive;
-    font-size: 40px;
-}
-
-.navbar-nav .nav-link,
-.navbar .navbar-brand {
-    color: var(--bodyWhite);
-}
-
-.navbar-toggler {
-    background-color: var(--subHeadingAqua);
-
-}
-
-.navbar-nav .nav-item a.nav-link {
-    transition: font-family text-transform 1s ease-in;
-}
-
-.navbar-nav .nav-item a.nav-link:hover {
-    color: var(--subHeadingAqua);
-    font-family: 'Calligraffitti', cursive;
-    text-transform: capitalize;
-}
-
-
-.Square {
-    border: 15px solid var(--subHeadingAqua);
-    border-radius: 50%;
-    animation: moveUpDown 2s linear infinite;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 15px;
 }
 
 @keyframes moveUpDown {
@@ -178,45 +185,4 @@ section:nth-child(even):hover {
     }
 }
 
-.Download-Button {
-    background-color: var(--subHeadingAqua);
-    border-radius: 0;
-    transition: all 2s ease-in-out;
-}
 
-.Download-Button:hover {
-    background-color: var(--navbarBlack);
-    color: var(--bodyWhite);
-}
-
-
-
-.College {
-    color: var(--bodyDarkWhite);
-    font-weight: 400;
-}
-
-.College:hover {
-    color: var(--subHeadingAqua);
-}
-
-
-
-
-
-
-
-.Contact-Section {
-    border: 1px solid red;
-}
-
-.Contact-Flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
-}
-
-.Contact-Flexbox li {
-    margin: 20px;
-}
