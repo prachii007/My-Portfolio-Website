@@ -82,6 +82,35 @@ section:nth-child(even):hover {
     padding: 15px;
 }
 
+#Project-Section ul:first-of-type li {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid var(--subHeadingAqua);
+    transform: skew(-15deg);
+    border-radius: 10px;
+}
+
+.Code-Links div {
+    margin: 20px;
+    border: 1px solid var(--subHeadingAqua);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Code-Links div:hover {
+    box-shadow: 0 0 10px var(--subHeadingAqua);
+}
+
+.Code-Links div a {
+    text-decoration: none;
+    color: var(--bodyWhite);
+    font-weight: bold;
+}
+
+
+
+
+
 .Job-Profile {
     font-size: 35px;
 }
@@ -171,48 +200,6 @@ section:nth-child(even):hover {
     color: var(--subHeadingAqua);
 }
 
-
-
-
-
-
-.Tech-Stack-Flexbox {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.Tech-Stack-Flexbox li {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid var(--subHeadingAqua);
-    transform: skew(-15deg);
-    border-radius: 10px;
-}
-
-.Code-Flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-}
-
-.Code-Flexbox div {
-    margin: 20px;
-    border: 1px solid var(--subHeadingAqua);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.Code-Flexbox div:hover {
-    box-shadow: 0 0 10px var(--subHeadingAqua);
-}
-
-.Code-Flexbox div a {
-    text-decoration: none;
-    color: var(--bodyWhite);
-    font-weight: bold;
-}
 
 
 
