@@ -51,6 +51,37 @@ section:nth-child(even):hover {
     font-size: 18px;
 }
 
+.Years {
+    border: 1px solid var(--subHeadingAqua);
+    width: fit-content;
+    color: var(--subHeadingAqua);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Work {
+    color: var(--bodyDarkWhite);
+    font-weight: 400;
+}
+
+.Company {
+    color: var(--bodyWhite);
+}
+
+.Company:hover {
+    color: var(--subHeadingAqua);
+}
+
+#Skills-Section div {
+    font-size: 20px;
+}
+
+#Skills-Section li {
+    margin: 15px;
+    border: 2px solid var(--subHeadingAqua);
+    padding: 15px;
+}
+
 .Job-Profile {
     font-size: 35px;
 }
@@ -131,14 +162,6 @@ section:nth-child(even):hover {
 
 
 
-.Years {
-    border: 1px solid var(--subHeadingAqua);
-    width: fit-content;
-    color: var(--subHeadingAqua);
-    font-weight: 400;
-    font-size: 18px;
-}
-
 .College {
     color: var(--bodyDarkWhite);
     font-weight: 400;
@@ -148,22 +171,10 @@ section:nth-child(even):hover {
     color: var(--subHeadingAqua);
 }
 
-.Work {
-    color: var(--bodyDarkWhite);
-    font-weight: 400;
-}
 
-.Work div {
-    color: var(--subHeadingAqua);
-}
 
-.Company {
-    color: var(--bodyWhite);
-}
 
-.Company:hover {
-    color: var(--subHeadingAqua);
-}
+
 
 .Tech-Stack-Flexbox {
     display: flex;
@@ -207,21 +218,6 @@ section:nth-child(even):hover {
 
 
 
-.Skills-Heading {
-    font-size: 20px;
-}
-
-.Skills-Flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.Skills-Flexbox li {
-    margin: 15px;
-    border: 2px solid var(--subHeadingAqua);
-    padding: 15px;
-}
 
 .Contact-Section {
     border: 1px solid red;
