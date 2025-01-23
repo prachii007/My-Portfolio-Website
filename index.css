@@ -16,6 +16,11 @@ h1 {
     font-size: 55px;
 }
 
+h2 {
+    font-size: 30px;
+    color: var(--subHeadingAqua);
+}
+
 section {
     border-radius: 20px;
     transition: all 0.5s ease-in;
@@ -35,26 +40,28 @@ section:nth-child(even):hover {
     transform: translateY(10px);
 }
 
+.Capital-Name {
+    color: var(--subHeadingAqua);
+    padding: 5px;
+}
+
+.About-Me-Text {
+    color: var(--bodyDarkWhite);
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .Job-Profile {
     font-size: 35px;
 }
 
-.Sub-heading {
-    font-size: 30px;
-    color: var(--subHeadingAqua);
-}
+
 
 .Navbar-Bg-Color {
     background-color: var(--navbarBlack);
 }
 
-.Capital-Prachi {
-    color: var(--subHeadingAqua);
-    padding: 5px;
-    padding-left: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+
 
 .Navbar-Prachi {
     color: var(--subHeadingAqua);
@@ -83,11 +90,6 @@ section:nth-child(even):hover {
     text-transform: capitalize;
 }
 
-.About-Me-Text {
-    color: var(--bodyDarkWhite);
-    font-weight: 500;
-    font-size: 18px;
-}
 
 .Square {
     border: 15px solid var(--subHeadingAqua);
